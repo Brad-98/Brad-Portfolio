@@ -115,6 +115,7 @@ body{
 .contain img{
     border-radius: 20px;
     height: auto;
+    width: 100%;
 }
 
 .item-content i{
