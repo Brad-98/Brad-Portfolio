@@ -82,10 +82,6 @@ body{
     color: #209ae0;
 }
 
-.fa-node{
-    color: #57be5c;
-}
-
 .contain{   
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); 
@@ -115,7 +111,7 @@ body{
 .contain img{
     border-radius: 20px;
     height: auto;
-    width: 100%;
+    width: auto;
 }
 
 .item-content i{
@@ -254,6 +250,10 @@ body{
     
     .item-content{
         height: 74%;
+    }
+
+    .contain img{
+        width: 100%;
     }
   }
 
